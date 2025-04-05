@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
     imageInput = document.createElement('input');
     
     imageInput.type = 'file';
-    imageInput.accept = 'image/jpeg,image/png,image/gif';
+    imageInput.accept = 'image/.jpeg,image/.png,image/.gif';
     imageInput.style.display = 'none';
     document.body.appendChild(imageInput);
 
