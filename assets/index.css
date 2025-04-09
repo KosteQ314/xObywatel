@@ -329,33 +329,29 @@ body{
     background-color: white;
 }
 
-.go {
+.go{
     width: 90%;
+    box-shadow: 0px 0px 20px rgb(153, 153, 153);
     height: 50px;
-    background-color: white; /* Białe tło */
-    border: 2px solid rgb(138, 138, 138); /* Szara ramka */
+    background-color: white;
     border-radius: 10px;
-    margin: 30px auto 20px auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 30px;
     font-size: 20px;
     font-weight: 600;
-    color: rgb(41, 41, 41); /* Kolor tekstu jak w --main-color */
     cursor: pointer;
-    transition: all 0.2s;
-    box-shadow: 0px 0px 20px rgba(153, 153, 153, 0.3);
-    display: block;
+    transition: 200ms;
+    margin-bottom: 20px;
     text-align: center;
-    line-height: 46px; /* Dopasowane do wysokości - border */
+    line-height: 50px;
 }
 
-.go:hover {
-    opacity: 0.8;
-    box-shadow: 0px 0px 10px rgba(153, 153, 153, 0.5);
+.go:hover{
+    opacity: 0.5;
 }
 
-.go:active {
-    transform: scale(0.98);
-    box-shadow: none;
-}
 .logo_text{
     border-radius: 10px;
     font-weight: bold;
@@ -447,7 +443,6 @@ input:focus{
 
 .error_shown .error{
     opacity: 1;
-    border: 2px solid var(--error-color);
 }
 
 .error_shown .input{
@@ -488,15 +483,6 @@ input:focus{
     transition: 200ms;
 }
 
-.upload_loaded .upload_uploaded {
-    display: block;
-    max-width: 100%;
-}
-.id_own_image {
-    background-size: cover;
-    background-position: center;
-}
-
 .upload_uploading{
     display: none;
 }
@@ -530,21 +516,6 @@ input:focus{
 
 .upload .error{
     top: 190px;
-}
-
-.upload_loading {
-    position: relative;
-}
-
-.upload_loading::after {
-    content: "Trwa przesyłanie...";
-    position: absolute;
-    bottom: 10px;
-    left: 0;
-    right: 0;
-    text-align: center;
-    color: white;
-    font-weight: 600;
 }
 
 .upload_loading .upload_grid{
@@ -581,7 +552,6 @@ input:focus{
     left: 0;
     right: 0;
     position: absolute;
-    
 }
 
 .upload_loaded {
