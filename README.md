@@ -1,3 +1,4 @@
+# Prace nad tym projektem zostały zakończone.
 ## xObywatel 0.1
 
 Uwaga! Ten projekt służy jedynie jako pamiątka kolekcjonerska.
